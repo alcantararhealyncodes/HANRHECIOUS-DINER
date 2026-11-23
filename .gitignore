@@ -1,0 +1,27 @@
+# Private email configuration
+mail_config.php
+
+# Private database configuration
+config.php
+
+# Environment secrets
+.env
+.env.*
+
+# Dependencies
+/vendor/
+
+# Logs and temporary files
+*.log
+*.tmp
+*.bak
+*.old
+
+# Editor and operating system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Local database backups
+database_backup.sql
