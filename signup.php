@@ -76,7 +76,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
             
             $verificationUrl =
-                'http://localhost/RestaurantOrderSystem1/verify_email.php?token='
+                'https://hanrheciousdiner.freehosting.dev/verify_email.php?token='
                 . rawurlencode($token);
 
             $safeName = e($name);
