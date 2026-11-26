@@ -1,8 +1,8 @@
-# Hanerhecious Diner — Restaurant Ordering System
+Hanerhecious Diner — Restaurant Ordering System
 
 A web-based restaurant ordering system built with PHP, MySQL, HTML, CSS, and JavaScript.
 
-## Features
+Features
 
 - Customer registration and login
 - Email verification
@@ -20,7 +20,7 @@ A web-based restaurant ordering system built with PHP, MySQL, HTML, CSS, and Jav
 - Customer support management
 - Privacy policy and help center
 
-## Technologies Used
+Technologies Used
 
 - PHP
 - MySQL
@@ -30,17 +30,21 @@ A web-based restaurant ordering system built with PHP, MySQL, HTML, CSS, and Jav
 - XAMPP
 - Visual Studio Code
 
-## Installation
+Hanrhecious Diner
 
-1. Install XAMPP and start Apache and MySQL.
-2. Copy the project folder into the XAMPP `htdocs` directory.
-3. Open phpMyAdmin at `http://localhost/phpmyadmin/`.
-4. Create or select the database `restaurant_order_system`.
-5. Import the provided `database.sql` file.
-6. Check the database settings in `config.php`.
-7. Open the website at `http://localhost/RestaurantOrderSystem1/`.
+Live Website: https://hanrheciousdiner.freehosting.dev/
 
-## Default Database Configuration
+Local Website: http://localhost/RestaurantOrderSystem1/
+
+Running Locally
+
+1. Install XAMPP.
+2. Start Apache and MySQL.
+3. Import `database.sql` into phpMyAdmin.
+4. Configure your local `config.php`.
+5. Open http://localhost/RestaurantOrderSystem1/ in your browser.
+
+Default Database Configuration
 
 The local development configuration may use:
 
@@ -51,7 +55,7 @@ The local development configuration may use:
 
 Update these settings if your MySQL configuration is different.
 
-## Notes
+Notes
 
 - Email verification may require additional email configuration.
 - The system uses Cash on Delivery for orders.
@@ -60,6 +64,6 @@ Update these settings if your MySQL configuration is different.
 - Email verification requires a separately configured `mail_config.php` file.
 - Keep email credentials outside the public repository.
 
-## Project Purpose
+Project Purpose
 
 This project was developed as a restaurant ordering system to demonstrate customer ordering, order tracking, coupon handling, and administrator management using PHP and MySQL.
